@@ -6,155 +6,202 @@ REFERENTE A RESPANSIVIDADE -->
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página portifólio L.A.">
     <meta name="keyword" content="HTML, CSS, JavaScript, portifólio">
     <meta name="author" content="Eduardo Laburu">
     
     <title>L.A. Desenvolvimento Web</title>
     
-    <link rel="icon" type="img/x-icon" href="">
+    <link rel="icon" type="img/x-icon" href="img/favicon.png">
     
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/cbf7c04dfa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <!--HEADER LOGO-->
+    <div class="container">
 
-    <header>
-        <div class="logo">
-            <h1>L.A.</h1>
-            <h2>Desenvolvimento Web</h2>
-        </div>
-    </header>
+        <div class="navbar-container">
 
-    <!--NAV ref='MENU'-->
+            <nav>
 
-    <nav class="navbar row">
-            <a href="" class='menu col-4' id="sobreMim">Quem Somos</a>
-            <a href="" class='menu col-4' id="servicos">Serviços</a>
-            <a href="" class='menu col-4' id="contato">Contato</a>
-        
-    </nav>
+                <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
 
-    <section>
-        <article>
-            <h1>
-                Vamos falar de coisa boa. Dispare suas vendas agora! 
-            </h1>
-        </article>
+                <ul class="navbar-itens">
 
-        <article>
-            <p>
-                O mundo dos negócios está em constante evolução, e a presença online se tornou uma necessidade incontestável. 
-                Se você está pronto para dar o próximo passo em direção ao sucesso, não pode mais adiar a criação do seu site. 
-                Um site não é apenas uma vitrine virtual, é a chave para desbloquear um mundo de oportunidades ilimitadas.
+                    <li><a href="index.html">Home</a></li>
 
-                Imagine ter uma plataforma online exclusiva, acessível 24 horas por dia, 7 dias por semana, onde você pode 
-                apresentar seus produtos e serviços a milhões de pessoas em todo o mundo. Um site é a sua marca registrada na 
-                internet, uma ferramenta poderosa para construir sua reputação, aumentar sua visibilidade e conquistar novos clientes.
+                    <li><a href="#quemsomos">Quem Somos</a></li>
+                    
+                    <li><a href="#service">Serviços</a></li>
+                    
+                    <li><a href="#contactForm">Contato</a></li>
 
-                Não perca mais tempo! Cada dia que você adia a criação do seu site é um dia em que você está perdendo oportunidades
-                de crescimento e sucesso. Deixe-nos ajudá-lo a criar a presença online que você merece. Não é apenas um site, é o 
-                seu futuro online. Invista em si mesmo, invista no seu negócio, invista no seu sucesso. Adquira seu site agora e 
-                comece a trilhar o caminho para um futuro brilhante e repleto de realizações.
+                </ul>
 
-                Fique tranquilo, cuidamos disso tudo, você só curte o resultado!
-            </p>
-        </article>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <p>OS RECURSOS CERTOS PARA ALAVANCAR O SEU NEGÓCIO</p>
-                <p>Alinhamos a criação de um Site com estratégias de Marketing Digital para sua empresa ficar online e ter melhores resultados.</p>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <div>Redes Sociais</div>
-            </div>
-
-            <div>
-                <div>Sucesso do Cliente</div>
-            </div>
-
-            <div>
-                <div>Recebimentos pelo site</div>
-            </div>
+            </nav>
 
         </div>
 
-        <div>
-            <div>
-                <div>Nome do site Personalizado</div>
-            </div>
+        <main>
 
-            <div>
-                <div>Suporte 24 horas</div>
-            </div>
+            <div class="main-banner"></div>
 
-            <div>
-                <div>Site adaptavel a tela em uso</div>
-            </div>
-            
-        </div>
-
-        <div>
-            <div>
-                <div>Atualização Rapida e Pratica</div>
-            </div>
-
-            <div>
-                <div>E-mail Profissional</div>
-            </div>
-
-            <div>
-                <div>Atenda de qualquer lugar</div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <h2>Receba seu Site Profissional a partir de 7 dias</h2>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <div>
-                    <p>Vamos usar de nossas ideias em marketing, design e programação, conforme às suas necessidades, e lhe entregamos em até 7 dias úteis </p>
+            <div id="quemsomos">
+                <div class="destaque-container">
+                    <div class="destaque-title">Bem-vindo à revolução digital com a L.A. Desenvolvimento Web</div>
+                    <div class="destaque-text">
+                        <p class="quemsomos">Bem-vindo à revolução digital com a L.A. Desenvolvimento Web, onde a excelência em design e funcionalidade se encontram para 
+                            transformar sua presença online! Fundada em 2023 por Eduardo Laburú, um visionário acadêmico de análise e desenvolvimento de 
+                            sistemas, nossa missão é não apenas entregar um trabalho excepcional da Escola de Programadores, mas também inaugurar uma era de 
+                            desenvolvimento de websites de ponta.</p>
+                            <p>Eduardo Laburú, capacitado nos cursos de HTML e CSS pela renomada Qualifica Cursos e atualmente imerso no universo do 
+                                Javascript, traz consigo o know-how necessário para elevar sua presença digital a novos patamares. Estamos aqui não 
+                                apenas para criar um site, mas para forjar uma parceria estratégica que impulsionará o sucesso de sua empresa.</p>
+                            <p>Entendemos que cada empresa é única, e é por isso que nossa abordagem começa com a compreensão profunda de suas necessidades. 
+                                Queremos saber o que faz sua empresa pulsar, como você faz isso, seus prazos e valores, metas e outros requisitos essenciais. 
+                                Sua visão é nossa bússola, e nosso compromisso é transformá-la em um site que não apenas impressiona, mas também impulsiona 
+                                seus objetivos.</p>
+                            <p>O que nos diferencia? Além de nossa expertise técnica, todos os nossos planos incluem uma visita presencial. Sim, acreditamos 
+                                que para criar algo verdadeiramente único, é preciso mergulhar no ambiente da sua empresa, sentir sua essência e compreender 
+                                as nuances que tornam sua marca singular.</p>
+                            <p>Na L.A. Desenvolvimento Web, não apenas construímos websites; construímos experiências digitais que conquistam, convertem e 
+                                cativam. Estamos prontos para embarcar nesta jornada com você, moldando o futuro online da sua empresa. Vamos além da 
+                                presença digital - criamos impacto digital. Contate-nos agora e descubra como podemos transformar sua visão em realidade, 
+                                impulsionando suas conquistas no mundo online!</p>
+                    </div>
+                    <div class="destaque-signature">
+                        Atenciosamente, L.A. Desenvolvimento Web
+                    </div>
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <p>Estamos ansiosos para ouvir suas ideias e colaborar ativamente em todo o processo. Vamos garantir que ele seja totalmente personalizado de acordo com o seu gosto.</p>
-                </div>
-            </div>
-            
-            <div>
-                <div>
-                    <p>Conte com a nossa equipe de especialistas para ajudar a alcançar seu objetivo.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <Section class="specialties-container">
 
-    <!--FOOTER ref='RODAPÉ'-->
+                <ul>
 
-    <footer>
-        <div>L.A. Desenvolvimento Web</div>
-    </footer>
+                    <li>
+
+                        <i class="fas fa-shield-alt"></i>
+
+                        <h3 class='bold'>ATUALIZAÇÃO SIMPLES</h3>
+
+                        <p>Com o treinamento exclusivo que iremos dar em nosso sistema simples de usar, você mesmo poderá atualizar seu site sem necessitar de conhecimento técnico.</p>
+
+                    </li>
+
+                    <li>
+
+                        <i class="fas fa-rocket"></i>
+
+                        <h3 class='bold'>SITE RESPONSIVO</h3>
+
+                        <p>Um site adaptável para computador, tablet e celular melhora a experiência do usuário, aumentando as interações.</p>
+
+                    </li>
+
+                    <li>
+
+                        <i class="fas fa-comments"></i>
+
+                        <h3 class='bold'>WHATSAPP E CHAT</h3>
+
+                        <p>Você oferecerá atendimento de excelência para seus clientes e ecomonizar o tempo de sua equipe.</p>
+
+                    </li>
+
+                </ul>
+                
+            </Section>
+
+            <section id="service" class="pricing-container">
+                <div class="servicos-container">
+                    <div class="destaque-title servicos-title">Descubra a Excelência dos Nossos Serviços!</div>
+                    <div class="servicos-text">
+                        Explore uma variedade de opções de serviços sob medida para atender às suas necessidades.
+                        Importante ressaltar que os valores apresentados são apenas uma referência inicial, estando
+                        abertos
+                        a negociações para garantir a melhor solução para você junto à nossa empresa. Venha descobrir as
+                        possibilidades que temos a oferecer!
+                    </div>
+                </div>
+                <div class="plans-container">
+
+                    <div class="plan">
+
+                        <ul>
+                            <li class="price">R$200/mês</li>
+                            <li class="plan-name">Basic</li>
+                            <li>Entrada + R$200,00 mensais</li>
+                            <li>Empresas de pequeno porte</li>
+                            <li>Suporte 24/5</li>
+                            <li class="plan-btn"><a href="https://wa.me/5567996274994">Selecionar</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="plan">
+
+                        <ul>
+                            <li class="price">R$400/mês</li>
+                            <li class="plan-name">ONE-PAGE</li>
+                            <li>Entrada + R$400,00 mensais</li>
+                            <li>Empresas de medio porte</li>
+                            <li>Suporte 24/6</li>
+                            <li class="plan-btn"><a href="https://wa.me/5567996274994">Selecionar</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="plan">
+
+                        <ul>
+                            <li class="price">R$500/mês</li>
+                            <li class="plan-name">Advanced</li>
+                            <li>Entrada + R500,00 mensais</li>
+                            <li>Empresas de grande porte</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plan-btn"><a href="https://wa.me/5567996274994">Selecionar</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="plan">
+
+                        <ul>
+                            <li class="price">R$800/mês</li>
+                            <li class="plan-name">E-commerce</li>
+                            <li>Entrada + R$800,00 mensais</li>
+                            <li>Vendas online</li>
+                            <li>Suporte 24/7</li>
+                            <li class="plan-btn"><a href="https://wa.me/5567996274994">Selecionar</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="contactForm" class="contact-container">
+                <h2>Entre em Contato</h2>
+                
+                <p>Mande uma mensagem para nós conversamos sobre o melhor site para seu negócio</p>
+
+                <input type="text" name="name" placeholder="Seu Nome">
+                <input type="email" name="email" placeholder="Seu E-mail">
+                <textarea name="message" placeholder="Digite sua mensagem"></textarea>
+                <input type="submit" value="Enviar">
+
+            </section>
+
+        </main>
+
+        <footer><img class="logo" src="img/logo.jpg"></footer>
+
+    </div>
 
 </body>
 
